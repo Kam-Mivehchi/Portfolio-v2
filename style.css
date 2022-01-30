@@ -1,0 +1,15 @@
+*{
+    box-sizing:content-box;
+    width: 100%;
+    overflow: hidden;
+}
+#nav{
+    display:flex;
+    align-self:right
+
+}
+
+img.animated-gif {
+    display:flex;
+    overflow:auto;
+}
