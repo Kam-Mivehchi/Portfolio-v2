@@ -1,15 +1,53 @@
 *{
-    box-sizing:content-box;
-    width: 100%;
-    overflow: hidden;
+    box-sizing:border-box;  
 }
+h1{
+    font-size: 10rem;
+}
+#short-desc{
+    font-size: 100%;
+} 
+#card-text{
+    font-size: 100%;
+}
+
 #nav{
-    display:flex;
-    align-self:right
-
+    display: flex;
+    align-self:right;
+    
 }
 
-img.animated-gif {
-    display:flex;
-    overflow:auto;
+#page-content{
+    padding:0;
+    
 }
+#project2{
+    display:block;
+    margin:auto; 
+    margin-top: 1rem;
+    padding:2rem; 
+    width:95%;
+    border-radius: 2rem;
+    
+   
+}
+#card-gif{
+    display: block;
+    margin:auto; 
+    width:60%;
+    border-radius: 1rem;
+}
+#row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+#navi{
+    padding: 0;
+}
+#float-right{
+    display: flex;
+    
+}
+
+  
