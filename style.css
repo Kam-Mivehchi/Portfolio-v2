@@ -1,8 +1,11 @@
 *{
     box-sizing:border-box;  
+    font-family: 'Aria';
 }
 h1{
     font-size: 10rem;
+}
+p{
 }
 #short-desc{
     font-size: 100%;
@@ -29,7 +32,7 @@ h1{
     width:95%;
     border-radius: 2rem;
     
-   
+    
 }
 #card-gif{
     display: block;
@@ -48,20 +51,37 @@ h1{
 
 
 #about{
-    height: 100vh;
-    width:70vw;
+    height: auto;
+    width:50vw;
     display:flex;
     flex-direction: column;
     padding-top: 1rem;
     margin:auto;
+    font-size: 2vh;
+    flex-basis: 100%;
+    flex: 1;
     
 }
 #about-bg{
     
     
+    
+    margin-top: 500px;
 }
 #about-body{
-
-    overflow-y: hidden;
+    
+    
 }
-  
+#headshot{
+    width: 20vw;
+    border-radius:50%;
+    border: .5rem solid rgb(204, 19, 19);
+    padding: .25rem;
+    vertical-align: middle;
+}
+#selfie{
+    position: relative; 
+    margin:auto;
+    
+    
+}
