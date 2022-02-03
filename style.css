@@ -1,6 +1,16 @@
+:root{
+    --main-bg-color:#0d1321;
+    --secondary-bg-color:#1d2d44;
+    --third-bg-color: #3e5c76;
+    --text-bg-color: #fdfdfd;
+}
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-bg-color);
+}
 *{
     box-sizing:border-box;  
-    font-family: 'Aria';
+    color:var(--text-bg-color)
 }
 h1{
     font-size: 10rem;
@@ -17,7 +27,12 @@ p{
 #nav{
     display: flex;
     align-self:right;
+   
     
+}
+#text{
+    
+margin: 0 10%;
 }
 
 #page-content{
@@ -26,11 +41,11 @@ p{
 }
 #project2{
     display:block;
-    margin:auto; 
-    margin-top: 1rem;
+     
+   
     padding:2rem; 
-    width:95%;
-    border-radius: 2rem;
+    width:100%;
+   
     
     
 }
@@ -39,14 +54,17 @@ p{
     margin:auto; 
     width:60%;
     border-radius: 1rem;
+    border: .5rem solid rgb(19, 29, 46);
+    padding:.25rem
 }
 #row{
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
+    
 }
 
 #navi{
     padding: 0;
+   
+    
 }
 
 
@@ -60,28 +78,67 @@ p{
     font-size: 2vh;
     flex-basis: 100%;
     flex: 1;
+    margin: auto 10%;
     
 }
-#about-bg{
-    
-    
-    
-    margin-top: 500px;
-}
-#about-body{
-    
-    
-}
+
 #headshot{
     width: 20vw;
     border-radius:50%;
-    border: .5rem solid rgb(204, 19, 19);
+    border: .5rem solid var(--third-bg-color);
     padding: .25rem;
-    vertical-align: middle;
+    margin: auto;
 }
 #selfie{
     position: relative; 
     margin:auto;
+    margin-left: 10%;
     
     
 }
+.spacer {
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+    
+}
+.spacer-proj {
+    aspect-ratio:1920/200 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+    
+}
+
+.layer1{
+    background-image: url('/assets/layered-waves-haikei.svg');
+   
+}
+.layer2{
+    background-image: url('/assets/stacked-waves-haikei.svg');
+   
+
+    
+
+}
+.layer3{
+   
+    background-image: url('/assets/layered-waves-haikei-bottom.svg');
+
+    
+
+}
+.layer4{
+    background-image:url('/assets/layered.svg') ;
+}
+
+
+
+    
+
+
+
