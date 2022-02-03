@@ -15,8 +15,7 @@ body {
 h1{
     font-size: 10rem;
 }
-p{
-}
+
 #short-desc{
     font-size: 100%;
 } 
@@ -31,7 +30,6 @@ p{
     
 }
 #text{
-    
 margin: 0 10%;
 }
 
@@ -57,9 +55,7 @@ margin: 0 10%;
     border: .5rem solid rgb(19, 29, 46);
     padding:.25rem
 }
-#row{
-    
-}
+
 
 #navi{
     padding: 0;
@@ -115,11 +111,11 @@ margin: 0 10%;
 }
 
 .layer1{
-    background-image: url('/assets/layered-waves-haikei.svg');
+    background-image: url('./assets/layered-waves-haikei.svg');
    
 }
 .layer2{
-    background-image: url('/assets/stacked-waves-haikei.svg');
+    background-image: url('./assets/stacked-waves-haikei.svg');
    
 
     
@@ -127,7 +123,7 @@ margin: 0 10%;
 }
 .layer3{
    
-    background-image: url('/assets/layered-waves-haikei-bottom.svg');
+    background-image: url('./assets/layered-waves-haikei-bottom.svg');
 
     
 
