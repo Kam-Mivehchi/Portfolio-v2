@@ -23,12 +23,8 @@ h1{
     font-size: 100%;
 }
 
-#nav{
-    display: flex;
-    align-self:right;
-   
-    
-}
+
+
 #text{
 margin: 0 10%;
 }
@@ -63,7 +59,9 @@ margin: 0 10%;
     
 }
 
-
+#nav {
+    background-color:var(--secondary-bg-color) ! important;
+}
 #about{
     height: auto;
     width:50vw;
