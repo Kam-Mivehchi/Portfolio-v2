@@ -14,7 +14,7 @@
  
  ## Description
  - Personal Portfolio built with Bootstrap
- - Mutli-Page Portfolio which features...
+ - Multi-Page Portfolio which features...
     - About Me
     - Project Gallery
     - Resume with download link
