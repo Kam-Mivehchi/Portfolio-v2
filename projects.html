@@ -21,6 +21,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Varela+Round&display=swap"
         rel="stylesheet">
@@ -32,13 +35,13 @@
     <!-- /header bar -->
     <header class="container-fluid " id="navi">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark w-100  " id="nav" style="background-color:#fdfdfd">
-            <a class="navbar-brand" style="color:#fdfdfd" href="#">Kamyar Mivehchi</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark w-100   " id="nav" style="background-color:#fdfdfd; ">
+            <a class="navbar-brand" style="color:#fdfdfd" href="./index.html">Kamyar Mivehchi</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse nav-pills" id="navbarNav">
+            <div class="collapse navbar-collapse nav-pills" id="navbarNav" style="justify-content:end;">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" style="color:#fdfdfd" href="./index.html">About</a>
@@ -57,6 +60,10 @@
                         <a class="nav-link" style="color:#fdfdfd" href="https://www.linkedin.com/in/kamyar-mivehchi/"
                             target='_blank' rel="noopener noreferrer">LinkedIn</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:#fdfdfd" href="mailto:kammivehchi@gmail.com" target='_blank'
+                            rel="noopener noreferrer">Contact</a>
+                    </li>
 
                 </ul>
             </div>
@@ -72,10 +79,16 @@
                 <div class="card-body" id='text' id='text'>
                     <h4 class="card-title">Type{Scripts}</h4>
                     <p id="short-desc">Typing Test Application</p>
-                    <a href="https://github.com/Kam-Mivehchi/TypeScripts" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Github</a>
-                    <a href="https://typescripts-btc.herokuapp.com/" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Check it out!</a>
+                    <button class="btn btn-light " style="color: aliceblue;">
+
+                        <a class="text-dark text-decoration-none" href="https://github.com/Kam-Mivehchi/TypeScripts"
+                            id="links repo link" target='_blank' rel="noopener noreferrer">Github</a>
+                    </button>
+                    <button class="btn btn-light">
+
+                        <a class="text-dark text-decoration-none" href="https://typescripts-btc.herokuapp.com/"
+                            id="links repo link" target='_blank' rel="noopener noreferrer">Live Site</a>
+                    </button>
                     <p class="card-text">Type{Scripts} is a typing game for all developers, new and experienced alike;
                         where users are able to see their typing skills when typing code. We noticed that a lot of the
                         typing quizes or games didn't offer developer modes where you can type code instead of random
@@ -98,10 +111,16 @@
                 <img src="./assets/WokoutWiz.gif" id="card-gif" class="animated-gif" alt="Typing Test Application">
                 <div class="card-body" id='text'>
                     <h4 class="card-title">Workout Wizard</h4>
-                    <a href="https://github.com/Kam-Mivehchi/project-1" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Github</a>
-                    <a href="https://runaariga.github.io/project-1/" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Check it out!</a>
+                    <button class="btn btn-light">
+
+                        <a class="text-dark text-decoration-none" href="https://github.com/Kam-Mivehchi/project-1"
+                            id="links repo link" target='_blank' rel="noopener noreferrer">Github</a>
+                    </button>
+                    <button class="btn btn-light">
+
+                        <a class="text-dark text-decoration-none" href="https://runaariga.github.io/project-1/"
+                            id="links repo link" target='_blank' rel="noopener noreferrer">Live Site</a>
+                    </button>
                     <p id="short-desc">Excercise
                         generator with video demonstrations</p>
 
@@ -126,10 +145,18 @@
                 <div class="card-body" id='text'>
                     <h4 class="card-title">Weather Dashboard</h4>
 
-                    <a href="https://github.com/Kam-Mivehchi/Weather-Dashboard" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Github</a>
-                    <a href="https://kam-mivehchi.github.io/Weather-Dashboard/" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Check it out!</a>
+                    <button class="btn btn-light">
+
+                        <a class="text-dark text-decoration-none"
+                            href="https://github.com/Kam-Mivehchi/Weather-Dashboard" id="links repo link"
+                            target='_blank' rel="noopener noreferrer">Github</a>
+                    </button>
+                    <button class="btn btn-light">
+
+                        <a class="text-dark text-decoration-none"
+                            href="https://kam-mivehchi.github.io/Weather-Dashboard/" id="links repo link"
+                            target='_blank' rel="noopener noreferrer">Live Site</a>
+                    </button>
                     <p class="card-text">Weather Dashboard is a sleek and responsive solution to recive weather
                         information from around the world. This application allows user input (string input or
                         button preset) to change the forecast to reflect their desired location. Weather data is updated
@@ -149,10 +176,16 @@
                 <img src="./assets/NoteTaker.gif" id="card-gif" class="animated-gif" alt="Typing Test Application">
                 <div class="card-body" id='text'>
                     <h4 class="card-title">Note Taker Application</h4>
-                    <a href="https://github.com/Kam-Mivehchi/Note-Taker" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Github</a>
-                    <a href="https://notetaker-km.herokuapp.com/" id="links repo link" target='_blank'
-                        rel="noopener noreferrer">Check it out!</a>
+                    <button class="btn btn-light">
+
+                        <a class="text-dark text-decoration-none" href="https://github.com/Kam-Mivehchi/Note-Taker"
+                            id="links repo link" target='_blank' rel="noopener noreferrer">Github</a>
+                    </button>
+                    <button class="btn btn-light">
+
+                        <a class="text-dark text-decoration-none" href="https://notetaker-km.herokuapp.com/"
+                            id="links repo link" target='_blank' rel="noopener noreferrer">Live Site</a>
+                    </button>
 
                     <p class="card-text">
                         A server hosted application which allows the user to create or delete notes and save then to
